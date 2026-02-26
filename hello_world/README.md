@@ -1,4 +1,6 @@
-### 0. Preprocessor
-* **File:** `0-preprocessor`
-* **Description:** A Bash script that runs a C file (stored in the environment variable `$CFILE`) through the preprocessor and saves the output in a file named `c`.
-* **Command used:** `gcc -E $CFILE -o c`
+## Files Description
+
+| File | Description |
+| :--- | :--- |
+| [0-preprocessor](./0-preprocessor) | A script that runs a C file through the preprocessor and saves the result in a file named `c`. |
+| [1-compiler](./1-compiler) | A script that compiles a C file (generating an object file `.o`) without linking. |
