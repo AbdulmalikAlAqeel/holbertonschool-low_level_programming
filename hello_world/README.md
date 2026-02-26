@@ -8,3 +8,4 @@
 | [3-name](./3-name) | A shell script that compiles a C file and creates an executable named `cisfun`. |
 | [4-puts.c](./4-puts.c) | A C program that prints a specific string using the `puts` function. |
 | [5-printf.c](./5-printf.c) | A C program that prints a specific string using the `printf` function. |
+| [6-size.c](./6-size.c) | A C program that prints the size of various data types on the computer it is compiled and run on. |
