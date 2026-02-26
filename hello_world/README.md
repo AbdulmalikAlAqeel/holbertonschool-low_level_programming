@@ -7,3 +7,4 @@
 | [2-assembler](./2-assembler) | A shell script that generates the assembly code of a C file and saves it in a file with a `.s` extension. |
 | [3-name](./3-name) | A shell script that compiles a C file and creates an executable named `cisfun`. |
 | [4-puts.c](./4-puts.c) | A C program that prints a specific string using the `puts` function. |
+| [5-printf.c](./5-printf.c) | A C program that prints a specific string using the `printf` function. |
