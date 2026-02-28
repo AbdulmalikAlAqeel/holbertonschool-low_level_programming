@@ -5,3 +5,4 @@ Prints the lowercase alphabet from a to z using `putchar` only twice.
 Task 3: alphABET: A C program that prints the alphabet in lowercase (`a-z`), followed by uppercase (`A-Z`), then a new line.
 Task 4: Alphabet Soup: Prints the lowercase alphabet from `a` to `z`, excluding the letters `q` and `e`.
 Task 5: A C program that prints all single-digit numbers of base 10 (0 to 9) followed by a new line.
+Task 6: Prints all single-digit numbers of base 10 (0-9) followed by a new line, without using any `char` type variables.
