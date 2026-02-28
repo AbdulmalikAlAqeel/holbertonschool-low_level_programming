@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - يقوم بطباعة جميع الأرقام المكونة من خانة واحدة
- * الأرقام مفصولة بفاصلة ومسافة، وبترتيب تصاعدي
- * Return: دائماً 0 (نجاح)
+ * main - Prints all possible combinations of single-digit numbers.
+ * Description: Numbers are separated by a comma and a space,
+ * printed in ascending order using only putchar.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,17 +12,14 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		/* تحويل الرقم إلى حرف وطباعته */
-		putchar(n + '0'); /* الاستخدام الأول لـ putchar */
-
+		putchar(n + '0');
 		if (n < 9)
 		{
-			putchar(','); /* الاستخدام الثاني لـ putchar */
-			putchar(' '); /* الاستخدام الثالث لـ putchar */
+			putchar(',');
+			putchar(' ');
 		}
 	}
-
-	putchar('\n'); /* الاستخدام الرابع لـ putchar */
+	putchar('\n');
 
 	return (0);
 }
