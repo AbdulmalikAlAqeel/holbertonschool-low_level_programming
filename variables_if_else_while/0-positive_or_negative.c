@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - نقطة الدخول للبرنامج
+ * main - Entry point
  *
- * الوصف: يقوم البرنامج بتوليد رقم عشوائي ويتحقق ما إذا كان
- * موجباً أم سالباً أم صفراً.
- * Return: دائماً 0 (نجاح)
+ * Description: Prints if a random number is positive,
+ * zero, or negative.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -16,7 +16,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	/* منطق التحقق من الرقم n */
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
