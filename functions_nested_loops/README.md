@@ -9,3 +9,4 @@ Task2: Prints the lowercase alphabet 10 times, each on a new line.
 Task3: Checks if a character is lowercase.
 Task4: Checks if a character is alphabetic (lowercase or uppercase).
 Task5: Prints the sign of a number (+, 0, or -).
+Task6: Computes the absolute value of an integer.
