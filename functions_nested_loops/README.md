@@ -5,4 +5,5 @@ Task1: This project focuses on the fundamentals of C programming, including:
 * Understanding variable scope.
 * Using header files (`main.h`).
 * Following the **Betty** coding style.
-
+Task2: Prints the lowercase alphabet 10 times, each on a new line.
+Task3: Checks if a character is lowercase.
