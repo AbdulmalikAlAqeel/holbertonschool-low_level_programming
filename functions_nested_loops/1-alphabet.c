@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet - تطبع الحروف الأبجدية بالصغير
+ * print_alphabet - prints the alphabet in lowercase
  *
- * الوصف: تستخدم هذه الدالة حلقة تكرار للمرور على جميع
- * الحروف من a إلى z وطباعتها، ثم سطر جديد.
+ * Description: This function uses a loop to print all letters
+ * from a to z followed by a new line.
  */
 void print_alphabet(void)
 {
