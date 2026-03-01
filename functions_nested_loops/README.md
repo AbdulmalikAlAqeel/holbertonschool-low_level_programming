@@ -11,4 +11,5 @@ Task4: Checks if a character is alphabetic (lowercase or uppercase).
 Task5: Prints the sign of a number (+, 0, or -).
 Task6: Computes the absolute value of an integer.
 Task7: Prints and returns the last digit of a number.
-Task8: Prints every minute of the day from 00:00 to 23:59. 
+Task8: Prints every minute of the day from 00:00 to 23:59.
+Task9: Prints the 9 times table with precise formatting. 
