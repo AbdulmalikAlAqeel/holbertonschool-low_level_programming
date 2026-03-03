@@ -4,3 +4,4 @@ Task 2: he function `int mul(int a, int b)` takes two integers and returns their
 Task 3: The function `void print_numbers(void)` iterates through characters from '0' to '9' and prints them using the `_putchar` function.
 Task 4: The function `void print_most_numbers(void)` uses a loop to print digits but skips '2' and '4' using a conditional `if` statement.
 Task 5: The function `void more_numbers(void)` uses nested loops. It handles two-digit numbers (10-14) by printing the tens place and then the units place separately.
+Task 6: Draws a straight line in the terminal.
