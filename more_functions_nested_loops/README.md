@@ -7,3 +7,4 @@ Task 5: The function `void more_numbers(void)` uses nested loops. It handles two
 Task 6: Draws a straight line in the terminal.
 Task 7: Draws a diagonal line in the terminal.
 Task 8: Prints a square using #.
+Task 9: Prints numbers 1-100 (FizzBuzz challenge).
