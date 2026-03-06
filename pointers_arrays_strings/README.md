@@ -7,3 +7,4 @@ Task5 : This function physically reverses the arrangement of characters within t
 Task6 : Prints every other character of a string, starting with the first one, followed by a new line.
 Task7 : Prints the second half of a string. If the length is odd, it prints the last (length + 1) / 2 characters.
 Task8 : Prints a specified number of elements from an integer array, formatted with commas and spaces.
+Task9 : Copies a string from a source buffer to a destination buffer, including the null terminator.
