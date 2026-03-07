@@ -17,3 +17,4 @@ Task10 : Converts a string to an integer, handling multiple signs and stopping a
 
 Task0 : The goal of this task is to create a function that concatenates two strings.
 Task1 : Implementation of a function that concatenates two strings but limits the number of bytes copied from the source.
+Task2 : Copies a string with a fixed length n, padding with null bytes if necessary.
