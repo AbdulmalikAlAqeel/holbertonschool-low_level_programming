@@ -1,4 +1,5 @@
 Task0 : A function that takes a pointer to an `int` and updates the value it points to to 98.
+
 Task1 : Swaps the values of two integers.
 Task2 : Returns the length of a string.
 Task3 : Prints a string followed by a new line using `_putchar`.
@@ -23,3 +24,10 @@ Task4 : Reverses the content of an array of integers.
 Task5 : Changes all lowercase letters of a string to uppercase.
 Task6 : Capitalizes all words of a string based on specific separators.
 Task7 : Encodes a string into 1337 (leet) using a specific mapping.
+
+
+
+************
+
+
+Task0 : A function that fills the first `n` bytes of the memory area pointed to by `s` with the constant byte `b`.
