@@ -22,3 +22,4 @@ Task3 : Compares two strings and returns the difference of the first unmatched c
 Task4 : Reverses the content of an array of integers.
 Task5 : Changes all lowercase letters of a string to uppercase.
 Task6 : Capitalizes all words of a string based on specific separators.
+Task7 : Encodes a string into 1337 (leet) using a specific mapping.
