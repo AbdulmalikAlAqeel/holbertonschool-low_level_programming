@@ -20,3 +20,4 @@ Task1 : Implementation of a function that concatenates two strings but limits th
 Task2 : Copies a string with a fixed length n, padding with null bytes if necessary.
 Task3 : Compares two strings and returns the difference of the first unmatched characters.
 Task4 : Reverses the content of an array of integers.
+Task5 : Changes all lowercase letters of a string to uppercase.
