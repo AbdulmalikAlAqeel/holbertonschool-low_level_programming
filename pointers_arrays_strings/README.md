@@ -21,3 +21,4 @@ Task2 : Copies a string with a fixed length n, padding with null bytes if necess
 Task3 : Compares two strings and returns the difference of the first unmatched characters.
 Task4 : Reverses the content of an array of integers.
 Task5 : Changes all lowercase letters of a string to uppercase.
+Task6 : Capitalizes all words of a string based on specific separators.
