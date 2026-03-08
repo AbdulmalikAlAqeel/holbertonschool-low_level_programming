@@ -19,3 +19,4 @@ Task0 : The goal of this task is to create a function that concatenates two stri
 Task1 : Implementation of a function that concatenates two strings but limits the number of bytes copied from the source.
 Task2 : Copies a string with a fixed length n, padding with null bytes if necessary.
 Task3 : Compares two strings and returns the difference of the first unmatched characters.
+Task4 : Reverses the content of an array of integers.
