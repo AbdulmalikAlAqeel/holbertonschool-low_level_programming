@@ -37,3 +37,4 @@ Task3 : The _strspn function calculates the length (in bytes) of the initial seg
 Task4 : This function finds the first character in the string s that matches any character specified in accept.
 Task5 : The _strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared.
 Task6 : Prints an 8x8 chessboard using a 2D array.
+Task7 : Calculates and prints the sum of the two diagonals of a square matrix of integers.
