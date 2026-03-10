@@ -34,3 +34,4 @@ Task0 : A function that fills the first `n` bytes of the memory area pointed to 
 Task1 : `char *_memcpy(char *dest, char *src, unsigned int n);` | Copies `n` bytes from memory area `src` to memory area `dest`.
 Task2 : Locates a character in a string and returns a pointer to its first occurrence. Supports searching for the null terminator \0.
 Task3 : The _strspn function calculates the length (in bytes) of the initial segment of string s that consists entirely of characters found in the string accept.
+Task4 : This function finds the first character in the string s that matches any character specified in accept.
