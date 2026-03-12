@@ -13,7 +13,8 @@ int main(int argc, char *argv[])
 	/* Silence unused argv warning */
 	(void)argv;
 
-	/* * argc includes the program name.
+	/*
+	 * argc includes the program name.
 	 * We print (argc - 1) to show only the passed arguments.
 	 */
 	printf("%d\n", argc - 1);
