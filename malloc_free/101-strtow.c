@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * count_words - Helper function to count the number of words in a string
+ * count_words - helper function to count the number of words in a string
  * @s: string to evaluate
  *
  * Return: number of words
@@ -13,7 +13,6 @@ int count_words(char *s)
 
 	flag = 0;
 	w = 0;
-
 	for (c = 0; s[c] != '\0'; c++)
 	{
 		if (s[c] == ' ')
@@ -25,6 +24,18 @@ int count_words(char *s)
 		}
 	}
 	return (w);
+}
+
+/**
+ * free_everything - frees the matrix in case of allocation failure
+ * @matrix: the 2D array to free
+ * @k: current index of the array
+ */
+void free_everything(char **matrix, int k)
+{
+	while (k > 0)
+		free(matrix[--k]);
+	free(matrix);
 }
 
 /**
@@ -44,11 +55,9 @@ char **strtow(char *str)
 	words = count_words(str);
 	if (words == 0)
 		return (NULL);
-
 	matrix = (char **) malloc(sizeof(char *) * (words + 1));
 	if (matrix == NULL)
 		return (NULL);
-
 	for (i = 0; i <= len; i++)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
@@ -59,17 +68,14 @@ char **strtow(char *str)
 				tmp = (char *) malloc(sizeof(char) * (c + 1));
 				if (tmp == NULL)
 				{
-					while (k > 0)
-						free(matrix[--k]);
-					free(matrix);
+					free_everything(matrix, k);
 					return (NULL);
 				}
 				while (start < end)
 					*tmp++ = str[start++];
 				*tmp = '\0';
 				matrix[k] = tmp - c;
-				k++;
-				c = 0;
+				k++, c = 0;
 			}
 		}
 		else if (c++ == 0)
