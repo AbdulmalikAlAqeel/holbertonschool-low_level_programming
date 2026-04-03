@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 /**
- * _isdigit - check if string contains only digits
+ * _isdigit - checks if a string contains only digits
+ * @s: string to check
+ *
+ * Return: 1 if string contains only digits, 0 otherwise
  */
 int _isdigit(char *s)
 {
@@ -18,7 +21,10 @@ int _isdigit(char *s)
 }
 
 /**
- * _strlen - returns length of string
+ * _strlen - returns the length of a string
+ * @s: string
+ *
+ * Return: length of the string
  */
 int _strlen(char *s)
 {
@@ -30,7 +36,9 @@ int _strlen(char *s)
 }
 
 /**
- * errors - prints error and exits
+ * errors - prints error message and exits
+ *
+ * Return: nothing (exit status 98)
  */
 void errors(void)
 {
@@ -44,7 +52,11 @@ void errors(void)
 }
 
 /**
- * main - multiplies two numbers
+ * main - multiplies two positive numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: 0 on success, exits with 98 on error
  */
 int main(int argc, char *argv[])
 {
