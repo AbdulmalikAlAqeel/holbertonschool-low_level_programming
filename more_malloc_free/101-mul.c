@@ -5,7 +5,7 @@
  * _isdigit - checks if a string contains only digits
  * @s: string to check
  *
- * Return: 1 if string contains only digits, 0 otherwise
+ * Return: 1 if only digits, 0 otherwise
  */
 int _isdigit(char *s)
 {
@@ -38,7 +38,7 @@ int _strlen(char *s)
 /**
  * errors - prints error message and exits
  *
- * Return: nothing (exit status 98)
+ * Return: nothing
  */
 void errors(void)
 {
@@ -56,7 +56,7 @@ void errors(void)
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: 0 on success, exits with 98 on error
+ * Return: 0 on success
  */
 int main(int argc, char *argv[])
 {
@@ -66,12 +66,21 @@ int main(int argc, char *argv[])
 	if (argc != 3 || !_isdigit(argv[1]) || !_isdigit(argv[2]))
 		errors();
 
+	/* handle zero case */
+	if ((argv[1][0] == '0' && argv[1][1] == '\0') ||
+	    (argv[2][0] == '0' && argv[2][1] == '\0'))
+	{
+		_putchar('0');
+		_putchar('\n');
+		return (0);
+	}
+
 	len1 = _strlen(argv[1]);
 	len2 = _strlen(argv[2]);
 
 	res = malloc(sizeof(int) * (len1 + len2));
 	if (!res)
-		return (1);
+		errors();
 
 	for (i = 0; i < len1 + len2; i++)
 		res[i] = 0;
