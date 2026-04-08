@@ -1,49 +1,43 @@
 #include "3-calc.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - performs simple operations
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - Performs simple operations.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
- * Return: 0 on success, or exit with specific error codes
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
-    int num1, num2, result;
-    int (*operation)(int, int);
+	int num1, num2;
+	char *op;
+	int (*operation)(int, int);
 
-    /* Check if the number of arguments is correct (Program name, num1, op, num2) */
-    if (argc != 4)
-    {
-        printf("Error\n");
-        exit(98);
-    }
+	if (argc != 4)
+	{
+		printf("Error\n");
+		exit(98);
+	}
 
-    num1 = atoi(argv[1]);
-    num2 = atoi(argv[3]);
+	num1 = atoi(argv[1]);
+	op = argv[2];
+	num2 = atoi(argv[3]);
 
-    /* Get the appropriate function based on the operator provided */
-    operation = get_op_func(argv[2]);
+	operation = get_op_func(op);
 
-    /* Check if operator is valid or if it is longer than one character */
-    if (operation == NULL || argv[2][1] != '\0')
-    {
-        printf("Error\n");
-        exit(99);
-    }
+	if (operation == NULL || op[1] != '\0')
+	{
+		printf("Error\n");
+		exit(99);
+	}
 
-    /* Check for division or modulo by zero */
-    if ((*argv[2] == '/' || *argv[2] == '%') && num2 == 0)
-    {
-        printf("Error\n");
-        exit(100);
-    }
+	if ((*op == '/' || *op == '%') && num2 == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
 
-    /* Execute the operation and print the result */
-    result = operation(num1, num2);
-    printf("%d\n", result);
+	printf("%d\n", operation(num1, num2));
 
-    return (0);
+	return (0);
 }
