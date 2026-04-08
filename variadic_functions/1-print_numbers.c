@@ -13,25 +13,20 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list nums;
 	unsigned int i;
 
-	/* Initialize the va_list to start after parameter 'n' */
 	va_start(nums, n);
 
 	for (i = 0; i < n; i++)
 	{
-		/* Print the current number */
 		printf("%d", va_arg(nums, int));
 
-		/* * Print separator only if:
-		 * 1. It is not NULL
-		 * 2. It is not the last element (i < n - 1)
-		 */
+		/* Print separator if it exists and it's not the last element */
 		if (separator != NULL && i < n - 1)
 		{
 			printf("%s", separator);
 		}
 	}
 
-	/* Print the trailing new line and clean up */
 	printf("\n");
+
 	va_end(nums);
 }
