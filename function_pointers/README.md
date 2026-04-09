@@ -12,3 +12,5 @@ Task3 : This project is a simple command-line calculator that performs basic ari
 3-get_op_func.c: Contains the function that selects the correct operation function.
 
 3-main.c: The entry point of the program.
+
+Task4 : An advanced program that prints its own assembly opcodes in hexadecimal.
