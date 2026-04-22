@@ -7,3 +7,5 @@
 2-add_node.c : Adds a new node at the beginning of a list_t list.
 
 3-add_node_end.c : Adds a new node at the end of a list_t list.
+
+4-free_list.c : Frees all memory allocated for the list.
