@@ -13,3 +13,5 @@
 5-get_dnodeint.c : Returns the nth node of a dlistint_t linked listi.
 
 6-sum_dlistint.c : Returns the sum of all data (n) in a list.
+
+7-insert_dnodeint.c : Inserts a new node at a given position.
