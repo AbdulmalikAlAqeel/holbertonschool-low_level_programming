@@ -15,3 +15,5 @@
 6-sum_dlistint.c : Returns the sum of all data (n) in a list.
 
 7-insert_dnodeint.c : Inserts a new node at a given position.
+
+8-delete_dnodeint.c : Deletes a node at a specific index.
