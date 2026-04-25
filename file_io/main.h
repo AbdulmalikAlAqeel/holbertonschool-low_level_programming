@@ -1,11 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/* Standard C Libraries */
+#include <stdlib.h>
+
+/* System Libraries for File I/O */
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
 
+/* Function Prototypes */
 ssize_t read_textfile(const char *filename, size_t letters);
+int _putchar(char c);
 
-#endif
+#endif /* MAIN_H */
