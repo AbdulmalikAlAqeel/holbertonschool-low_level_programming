@@ -5,3 +5,5 @@
 1-create_file.c : Creates a file with `rw-------` permissions and writes text to it.
 
 2-append_text_to_file.c : Appends text to the end of an existing file.
+
+3-cp.c : A robust utility that copies files with error handling.
