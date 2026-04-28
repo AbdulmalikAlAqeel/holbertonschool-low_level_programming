@@ -8,3 +8,5 @@ This project covers the implementation of a Hash Table data structure in C. It f
 0-hash_table_create.c : Function that creates a hash table.
 
 1-djb2.c : Implementation of the djb2 hash algorithm.
+
+2-key_index.c : Function that gives the index of a key.
