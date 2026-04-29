@@ -12,3 +12,7 @@ This project covers the implementation of a Hash Table data structure in C. It f
 2-key_index.c : Function that gives the index of a key.
 
 3-hash_table_set.c : Function that adds an element to the hash table.
+
+4-hash_table_get.c : Function that retrieves a value associated with a key.
+
+5-hash_table_print.c : Function that prints a hash table.
