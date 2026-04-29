@@ -16,3 +16,5 @@ This project covers the implementation of a Hash Table data structure in C. It f
 4-hash_table_get.c : Function that retrieves a value associated with a key.
 
 5-hash_table_print.c : Function that prints a hash table.
+
+6-hash_table_delete.c : Function that deletes a hash table.
